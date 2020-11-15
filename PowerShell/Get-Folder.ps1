@@ -1,3 +1,12 @@
+<#
+.DESCRIPTION
+    A function to help sumarize the content of given folder,
+    list all contents and show their size in MB, preseve the mode property
+    from Get-ChildItem command.
+    
+    This function takes one parameter and verify it's a valid folder path
+#>
+
 function GetFolder {
     param (
         [Parameter()]
